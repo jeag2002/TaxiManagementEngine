@@ -1,0 +1,24 @@
+type Car{
+	id: ID!
+	licenceplate: String!
+	seatCount: Int
+	convertible: Int
+	rating: Int
+	engineType: String
+}
+
+type Query {
+	findAllCars: [Car]!
+	countCars: Long!
+}
+
+type Mutation {
+    newCar(licenceplate: String!, seatCount: Int, convertible: Int, rating: Int, engineType: String!) : Car!
+    deleteCar(id: ID!) : Boolean    
+    updateCar(id: ID!, licenceplate: String!, seatCount: Int, convertible: Int, rating: Int, engineType: String!) : Car!
+}
+
+schema {
+	query:Query
+	mutation:Mutation
+}

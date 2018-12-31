@@ -1,0 +1,33 @@
+https://developer.okta.com/blog/2018/08/16/secure-api-spring-boot-graphql
+https://www.baeldung.com/spring-graphql
+
+https://www.pluralsight.com/guides/building-a-graphql-server-with-spring-boot
+https://dev.to/sambenskin/howto-build-graphql-services-in-java-with-spring-boot---part-1-38b2
+
+
+https://github.com/Shopify/graphql_java_gen
+https://stackoverflow.com/questions/47755642/are-there-any-java-based-graphql-client-to-invoke-graphql-server-from-java-code?noredirect=1&lq=1
+
+https://github.com/okta/okta-spring-boot/issues/91
+
+TUTORIAL HOW TO CREATE JWT KEY FOR CLIENT (OKTA)
+https://developer.okta.com/blog/2018/12/18/secure-spring-rest-api
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+TEST: http://localhost:8080/graphiql
+
+Consulta:
+
+{
+  findAllCars {
+    id
+    licenceplate
+    seatCount
+    convertible
+    rating
+    engineType    
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
